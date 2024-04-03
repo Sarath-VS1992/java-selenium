@@ -27,7 +27,7 @@ public class TaskThreeMediBuddyLogin {
 		driver.findElement(By.xpath("//form[@name='submitCorpUsernamePasswordForm']//button")).click();
 		WebElement errorMessage = driver.findElement(By.xpath("//form[@name='submitCorpUsernamePasswordForm']//div[@ng-if='isPasswordWrong']"));
 		System.out.println(errorMessage.getText());
-		driver.close();
+		driver.close(); 
 
 	}
 
